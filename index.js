@@ -45,7 +45,7 @@ class Deposit extends Transaction {
     return this.amount;
   }
   isAllowed() {
-    // deposits always allowed thanks to capitalism.
+    // deposits always allowed.
     return true;
   }
 }
